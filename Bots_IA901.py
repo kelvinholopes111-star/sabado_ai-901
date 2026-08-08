@@ -38,7 +38,7 @@ if "messages" not in st.session_state:
 # 💡 DICA PARA A AULA 2: O Endpoint Inteligente
 # Note que o endereço termina com '/openai/v1'. Isso avisa aos servidores da 
 # Microsoft que vamos conversar no padrão universal, dispensando o 'api_version'.
-endpoint = "https://kelvinalves4-7238-resource.services.ai.azure.com/api/projects/kelvinalves4-7238"
+endpoint = "https://kelvinalves4-7238-resource.openai.azure.com/openai/v1"
 deployment_name = "gpt-5.4-mini"
 
 # 💡 DICA PARA A AULA 3: Segurança de Credenciais
